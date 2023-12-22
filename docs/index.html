@@ -1,3 +1,4 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -34,7 +35,14 @@
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 
     <script>
-      // Your React app code here
+      const App = () => {
+        return (
+          <div>
+            <h1>Hello, React!</h1>
+          </div>
+        );
+      };
+
       const root = ReactDOM.createRoot(
         document.getElementById('root')
       );
