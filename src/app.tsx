@@ -1,12 +1,13 @@
 import React from 'react';
 import './reservationForm.css';
 import ReservationForm from './reservationForm';
-// import ReservationForm from './reservationForm';
 
 function App() {
+  // return(React.createElement('h2',null,'Element rendered from Server'))
   return (
     <div className="App">
       <ReservationForm />
+      {/* <p>Hello,world</p> */}
     </div>
   );
 }
