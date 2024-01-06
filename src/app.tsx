@@ -1,5 +1,4 @@
 import React from 'react';
-import './reservationForm.css';
 import ReservationForm from './reservationForm';
 
 function App() {

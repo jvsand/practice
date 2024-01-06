@@ -1,0 +1,13 @@
+/*!***************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/reservationForm.css ***!
+  \***************************************************************************/
+.tytle{
+  background-color: rgb(25, 108, 17);
+  color: white;
+}
+
+.sub-tytle{
+  background-color: rgb(17, 165, 3);
+  color: white;
+}
+

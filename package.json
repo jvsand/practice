@@ -24,7 +24,9 @@
     "node-start": "node ./dist/bundle.js",
     "test": "react-scripts test",
     "webpack": "webpack",
-    "build": "webpack --config webpack.config.js"
+    "webpack-server": "webpack --config webpack.config.js",
+    "webpack-client": "webpack --config webpack.client.config.js",
+    "run-webpack": "npm run webpack-server && npm run webpack-client"
   },
   "eslintConfig": {
     "extends": [
@@ -54,6 +56,7 @@
     "gh-pages": "^6.1.0",
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.6.0",
+    "mini-css-extract-plugin": "^2.7.6",
     "style-loader": "^3.3.3",
     "ts-loader": "^9.5.1",
     "typescript": "^5.3.3",
